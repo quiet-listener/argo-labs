@@ -4,9 +4,8 @@ metadata:
   name: vote
 spec:
   ports:
-  - name: "80"
+  - name: "8080"
     nodePort: 30200
-    port: 8080
     protocol: TCP
     targetPort: 80
   type: NodePort
