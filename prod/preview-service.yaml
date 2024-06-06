@@ -6,7 +6,6 @@ spec:
   ports:
   - name: "80"
     nodePort: 30300
-    port: 80
     protocol: TCP
     targetPort: 80
   type: NodePort
